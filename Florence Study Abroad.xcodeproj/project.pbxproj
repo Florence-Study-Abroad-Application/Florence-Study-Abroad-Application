@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58BC32582098C7DF008C3FB2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58BC32572098C7DF008C3FB2 /* Launch Screen.storyboard */; };
 		58D33D27207BF8CA00783350 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D33D26207BF8CA00783350 /* AppDelegate.swift */; };
 		58D33D29207BF8CA00783350 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D33D28207BF8CA00783350 /* ViewController.swift */; };
 		58D33D2C207BF8CA00783350 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58D33D2A207BF8CA00783350 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		58BC32572098C7DF008C3FB2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		58D33D23207BF8CA00783350 /* Florence Study Abroad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Florence Study Abroad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58D33D26207BF8CA00783350 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58D33D28207BF8CA00783350 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				58D33D26207BF8CA00783350 /* AppDelegate.swift */,
 				58D33D28207BF8CA00783350 /* ViewController.swift */,
 				58D33D2A207BF8CA00783350 /* Main.storyboard */,
+				58BC32572098C7DF008C3FB2 /* Launch Screen.storyboard */,
 				58D33D2D207BF8CA00783350 /* Assets.xcassets */,
 				58D33D2F207BF8CA00783350 /* LaunchScreen.storyboard */,
 				58D33D32207BF8CA00783350 /* Info.plist */,
@@ -124,6 +127,7 @@
 			files = (
 				58D33D31207BF8CA00783350 /* LaunchScreen.storyboard in Resources */,
 				58D33D2E207BF8CA00783350 /* Assets.xcassets in Resources */,
+				58BC32582098C7DF008C3FB2 /* Launch Screen.storyboard in Resources */,
 				58D33D2C207BF8CA00783350 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
