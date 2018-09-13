@@ -3,7 +3,7 @@
 //  Florence Study Abroad
 //
 //  Created by BT User on 4/9/18.
-//  Copyright © 2018 Brett Thomas. All rights reserved.
+//  Copyright © 2018 Jessica Ragland, Brad Higdon, Alexei Cogdill. All rights reserved.
 //
 
 import UIKit
