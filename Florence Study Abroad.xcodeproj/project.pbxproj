@@ -13,6 +13,7 @@
 		58D33D2C207BF8CA00783350 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58D33D2A207BF8CA00783350 /* Main.storyboard */; };
 		58D33D2E207BF8CA00783350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58D33D2D207BF8CA00783350 /* Assets.xcassets */; };
 		58D33D31207BF8CA00783350 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58D33D2F207BF8CA00783350 /* LaunchScreen.storyboard */; };
+		FEB03DD72149E57F00110978 /* Jessica.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEB03DD52149E57F00110978 /* Jessica.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		58D33D2D207BF8CA00783350 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58D33D30207BF8CA00783350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58D33D32207BF8CA00783350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEB03DD62149E57F00110978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Florence Study Abroad/Base.lproj/Jessica.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		58D33D1A207BF8CA00783350 = {
 			isa = PBXGroup;
 			children = (
+				FEB03DD52149E57F00110978 /* Jessica.storyboard */,
 				58D33D25207BF8CA00783350 /* Florence Study Abroad */,
 				58D33D24207BF8CA00783350 /* Products */,
 			);
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58D33D31207BF8CA00783350 /* LaunchScreen.storyboard in Resources */,
+				FEB03DD72149E57F00110978 /* Jessica.storyboard in Resources */,
 				58D33D2E207BF8CA00783350 /* Assets.xcassets in Resources */,
 				58BC32582098C7DF008C3FB2 /* Launch Screen.storyboard in Resources */,
 				58D33D2C207BF8CA00783350 /* Main.storyboard in Resources */,
@@ -161,6 +165,14 @@
 				58D33D30207BF8CA00783350 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FEB03DD52149E57F00110978 /* Jessica.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEB03DD62149E57F00110978 /* Base */,
+			);
+			name = Jessica.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
