@@ -23,28 +23,13 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
-                                    <tabBarItem systemItem="favorites" id="0ej-8b-gRm"/>
-                                    <tabBarItem title="Item" id="pOb-aP-yJB"/>
-                                    <tabBarItem title="Item" id="rqV-vR-BqV"/>
-                                    <tabBarItem title="Item" id="WYd-3i-tSb"/>
+                                    <tabBarItem title="Dashboard" id="pOb-aP-yJB"/>
+                                    <tabBarItem title="Calendar" id="rqV-vR-BqV"/>
+                                    <tabBarItem title="To Do" id="WYd-3i-tSb"/>
                                     <tabBarItem title="Notification" id="esg-QS-9li"/>
                                     <tabBarItem title="Images" id="Rxd-RD-Dyp"/>
                                 </items>
                             </tabBar>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Checking" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7nM-Wb-t4b">
-                                <rect key="frame" x="139" y="223" width="97" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F6T-dg-SH2">
-                                <rect key="frame" x="151" y="143" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="SOH-cx-29m"/>
