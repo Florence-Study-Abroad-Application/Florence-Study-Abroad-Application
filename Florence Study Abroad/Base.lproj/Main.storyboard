@@ -888,7 +888,7 @@
                                 </state>
                                 <connections>
                                     <action selector="pressedRegistration:" destination="m0W-gL-6Cn" eventType="touchUpInside" id="oDr-61-i06"/>
-                                    <segue destination="uLf-Eh-huB" kind="show" identifier="toRegistration" id="QkF-SI-lLa"/>
+                                    <segue destination="jVt-iK-yaK" kind="show" id="BJQ-2u-gtm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kNr-Uk-EX6">
@@ -1055,6 +1055,9 @@
                                 <state key="normal" title="Log In">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="vj3-R9-Y5i" kind="show" id="AO3-64-0V1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tPP-yw-NJr">
                                 <rect key="frame" x="126" y="435" width="123" height="30"/>
@@ -1187,6 +1190,27 @@
                                 </items>
                                 <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tabBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eiQ-OD-qJw">
+                                <rect key="frame" x="87" y="637" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="cPK-aU-HBg" kind="show" id="QHG-5p-yYQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uTa-Ip-0HR">
+                                <rect key="frame" x="16" y="637" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pya-1x-gUB">
+                                <rect key="frame" x="316" y="627" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="rsE-KP-R3T" kind="show" id="10H-bo-ah3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="aqO-hX-NeW"/>
@@ -1838,6 +1862,9 @@
                                                 </label>
                                             </subviews>
                                         </view>
+                                        <connections>
+                                            <segue destination="ykq-Ht-dgp" kind="show" id="rIl-wD-b58"/>
+                                        </connections>
                                     </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="wnd-0H-mXP">
                                         <rect key="frame" x="0.0" y="60" width="343" height="50"/>
@@ -1855,6 +1882,9 @@
                                                 </label>
                                             </subviews>
                                         </view>
+                                        <connections>
+                                            <segue destination="ykq-Ht-dgp" kind="show" id="ltM-sr-hRb"/>
+                                        </connections>
                                     </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="bcJ-bM-qD2">
                                         <rect key="frame" x="0.0" y="120" width="343" height="50"/>
@@ -1872,6 +1902,9 @@
                                                 </label>
                                             </subviews>
                                         </view>
+                                        <connections>
+                                            <segue destination="ykq-Ht-dgp" kind="show" id="hqf-fg-fLc"/>
+                                        </connections>
                                     </collectionViewCell>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="EMy-zV-UD8">
                                         <rect key="frame" x="0.0" y="180" width="343" height="50"/>
@@ -2049,6 +2082,22 @@
                                                     <rect key="frame" x="315" y="0.0" width="51" height="41"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kbC-CV-8H1">
+                                                    <rect key="frame" x="11" y="11" width="46" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <connections>
+                                                        <segue destination="vj3-R9-Y5i" kind="show" id="4en-Sh-FGz"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yVv-DL-5kA">
+                                                    <rect key="frame" x="85" y="11" width="46" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <connections>
+                                                        <segue destination="cPK-aU-HBg" kind="show" id="D3V-di-6et"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                         </view>
                                     </collectionViewCell>
@@ -2061,7 +2110,44 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Uj2-Pt-gPU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3106" y="-301"/>
+            <point key="canvasLocation" x="2225" y="-527"/>
+        </scene>
+        <!--Collection View Controller-->
+        <scene sceneID="duU-wK-S0e">
+            <objects>
+                <collectionViewController id="ykq-Ht-dgp" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="IW8-3T-3Z4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="pRA-2a-EH1">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Jrg-b4-Myg">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </view>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="ykq-Ht-dgp" id="wmI-li-K3H"/>
+                            <outlet property="delegate" destination="ykq-Ht-dgp" id="G4E-64-MMW"/>
+                        </connections>
+                    </collectionView>
+                    <connections>
+                        <segue destination="rsE-KP-R3T" kind="show" id="1W5-Aa-Trf"/>
+                    </connections>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GzJ-J2-d2t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2895" y="160"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fvc-ol-bdh">
@@ -2157,6 +2243,14 @@
                                                     <color key="textColor" red="0.4756349325" green="0.47564673419999998" blue="0.47564041610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="07h-fF-t1Z">
+                                                    <rect key="frame" x="305" y="10" width="46" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <connections>
+                                                        <segue destination="avD-Od-dBj" kind="show" id="fqy-0V-VdK"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                         </view>
                                     </collectionViewCell>
@@ -2316,6 +2410,30 @@
                                                     <rect key="frame" x="315" y="0.0" width="51" height="41"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Vt-vG-1H0">
+                                                    <rect key="frame" x="20" y="11" width="46" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <connections>
+                                                        <segue destination="vj3-R9-Y5i" kind="show" id="Zh3-I9-FJK"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rQB-xz-oZT">
+                                                    <rect key="frame" x="85" y="11" width="46" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <connections>
+                                                        <segue destination="cPK-aU-HBg" kind="show" id="us0-zB-wPF"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A7B-1r-fO7">
+                                                    <rect key="frame" x="309" y="11" width="46" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <connections>
+                                                        <segue destination="rsE-KP-R3T" kind="show" id="lWp-wg-vby"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                         </view>
                                     </collectionViewCell>
@@ -2405,6 +2523,30 @@
                                                     <rect key="frame" x="315" y="0.0" width="51" height="41"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y50-9F-i5U">
+                                                    <rect key="frame" x="0.0" y="11" width="46" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <connections>
+                                                        <segue destination="vj3-R9-Y5i" kind="show" id="GXB-KT-bWo"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ns1-ZT-zaz">
+                                                    <rect key="frame" x="329" y="11" width="46" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <connections>
+                                                        <segue destination="rsE-KP-R3T" kind="show" id="BSr-DX-xhG"/>
+                                                    </connections>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IRn-Tw-ug3">
+                                                    <rect key="frame" x="87" y="11" width="46" height="30"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <connections>
+                                                        <segue destination="cPK-aU-HBg" kind="show" id="7dZ-zp-SMe"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                         </view>
                                     </collectionViewCell>
@@ -2536,4 +2678,10 @@
         <image name="logo" width="291" height="226"/>
         <image name="study-abroad-why-2" width="780" height="501"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="rIl-wD-b58"/>
+        <segue reference="1W5-Aa-Trf"/>
+        <segue reference="D3V-di-6et"/>
+        <segue reference="4en-Sh-FGz"/>
+    </inferredMetricsTieBreakers>
 </document>
