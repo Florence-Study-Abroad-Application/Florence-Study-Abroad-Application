@@ -162,19 +162,49 @@
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translucent="NO" itemPositioning="fill" translatesAutoresizingMaskIntoConstraints="NO" id="VoU-HQ-XXI">
-                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="noP-cy-flm">
+                                <rect key="frame" x="0.0" y="625" width="375" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem tag="1" title="Dashboard" id="pSr-mO-5Gy"/>
-                                    <tabBarItem title="Calendar" id="0Lv-1N-KDU"/>
-                                    <tabBarItem title="To Do" id="ggt-F2-wYw"/>
-                                    <tabBarItem title="Notifications" id="QBv-fp-Hh9"/>
-                                    <tabBarItem title="Inbox" id="C2o-td-eiF"/>
-                                </items>
-                                <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </tabBar>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="e4P-DZ-U91">
+                                    <size key="itemSize" width="375" height="41"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="3az-Wt-at3">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="41"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="41"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Dashboard" translatesAutoresizingMaskIntoConstraints="NO" id="uJN-Cs-yUC">
+                                                    <rect key="frame" x="8" y="0.0" width="51" height="41"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Notifications" translatesAutoresizingMaskIntoConstraints="NO" id="hgM-0w-yR0">
+                                                    <rect key="frame" x="240" y="-4" width="53" height="45"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Calendar" translatesAutoresizingMaskIntoConstraints="NO" id="hTL-RD-gBZ">
+                                                    <rect key="frame" x="82" y="-4" width="53" height="49"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="To-Do List" translatesAutoresizingMaskIntoConstraints="NO" id="moP-7M-3Vy">
+                                                    <rect key="frame" x="161" y="-4" width="53" height="49"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Dashboard" translatesAutoresizingMaskIntoConstraints="NO" id="4eb-mD-DD8">
+                                                    <rect key="frame" x="315" y="0.0" width="51" height="41"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="NZf-Fq-fD1"/>
@@ -182,7 +212,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y7o-AH-cWt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1866.4000000000001" y="-2574.0629685157423"/>
+            <point key="canvasLocation" x="1430" y="-2546"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="aKu-Op-2mp">
@@ -201,6 +231,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Calendar" width="82" height="58"/>
+        <image name="Dashboard" width="72" height="56"/>
+        <image name="Notifications" width="78" height="55"/>
+        <image name="To-Do List" width="62" height="56"/>
         <image name="bar menu" width="600" height="400"/>
         <image name="canvas" width="1118" height="920"/>
         <image name="logo" width="291" height="226"/>
