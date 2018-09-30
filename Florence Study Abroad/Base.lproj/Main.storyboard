@@ -25,7 +25,7 @@
                                     <constraint firstAttribute="height" constant="210" id="Nko-1e-v3h"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hKn-Ii-hhc">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="angelShotToPort" translatesAutoresizingMaskIntoConstraints="NO" id="hKn-Ii-hhc">
                                 <rect key="frame" x="20" y="331" width="150" height="150"/>
                                 <color key="backgroundColor" red="0.91574745560000004" green="0.97152368450000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -56,7 +56,7 @@
                                     <action selector="pressedMainMenu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L53-60-Vhi"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Nke-en-hQl">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EveningShot" translatesAutoresizingMaskIntoConstraints="NO" id="Nke-en-hQl">
                                 <rect key="frame" x="190" y="331" width="150" height="150"/>
                                 <color key="backgroundColor" red="0.91574745560000004" green="0.97152368450000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -2056,8 +2056,10 @@
     <resources>
         <image name="Calendar" width="82" height="58"/>
         <image name="Dashboard" width="72" height="56"/>
+        <image name="EveningShot" width="2880" height="1592"/>
         <image name="Notifications" width="78" height="55"/>
         <image name="To-Do List" width="62" height="56"/>
+        <image name="angelShotToPort" width="2880" height="1616"/>
         <image name="bar menu" width="600" height="400"/>
         <image name="canvas" width="1118" height="920"/>
         <image name="logo" width="291" height="226"/>
