@@ -85,7 +85,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="HOME" id="ba0-oY-s6R"/>
+                    <navigationItem key="navigationItem" title="Home" id="ba0-oY-s6R"/>
                     <connections>
                         <outlet property="mainMenuButton" destination="tDi-wc-SIw" id="8rO-wS-sVe"/>
                         <segue destination="364-ga-BNK" kind="push" identifier="toMainMenu" id="RR9-Lp-TdP"/>
@@ -160,190 +160,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Z17-L2-1Uq">
-                                <rect key="frame" x="20" y="259" width="125" height="160"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="z15-gc-UWJ">
-                                        <rect key="frame" x="0.0" y="0.0" width="125" height="125"/>
-                                        <color key="backgroundColor" red="0.91574745560000004" green="0.97152368450000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="125" id="AEe-cS-xpk"/>
-                                            <constraint firstAttribute="height" constant="125" id="fEm-hR-QRY"/>
-                                        </constraints>
-                                    </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="275-Li-R2K">
-                                        <rect key="frame" x="15.5" y="125" width="94" height="35"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="35" id="oUd-kc-MTg"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <state key="normal" title="Contact Info">
-                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="pressedContactInfo:" destination="YdW-l6-6yd" eventType="touchUpInside" id="Aog-TF-pFu"/>
-                                            <segue destination="bmz-i2-QIg" kind="show" identifier="toContactInformation" id="Xe6-qI-kY7"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="160" id="5OK-Ah-enH"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="160" id="WUr-Xk-0ef"/>
-                                    <constraint firstAttribute="width" constant="125" id="yG0-hE-XJ5"/>
-                                </constraints>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Jns-R2-enA">
-                                <rect key="frame" x="20" y="434" width="125" height="160"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fo0-97-rYB">
-                                        <rect key="frame" x="0.0" y="0.0" width="125" height="125"/>
-                                        <color key="backgroundColor" red="0.91574745560000004" green="0.97152368450000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="125" id="Fms-j2-xDT"/>
-                                            <constraint firstAttribute="width" constant="125" id="Uvj-fg-DUZ"/>
-                                        </constraints>
-                                    </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vJE-6k-E4z">
-                                        <rect key="frame" x="25.5" y="125" width="74" height="35"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="35" id="krh-cE-4nr"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <state key="normal" title="Financing">
-                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="pressedFinancing:" destination="YdW-l6-6yd" eventType="touchUpInside" id="qXl-yO-ZSl"/>
-                                            <segue destination="5mq-hn-YEF" kind="show" identifier="toFinancing" id="5vJ-d3-yJ2"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="125" id="39T-as-G7S"/>
-                                    <constraint firstAttribute="height" constant="160" id="bf4-og-eUG"/>
-                                </constraints>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="BXC-uT-F3e">
-                                <rect key="frame" x="20" y="84" width="125" height="160"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IMy-Hp-1lL">
-                                        <rect key="frame" x="0.0" y="0.0" width="125" height="125"/>
-                                        <color key="backgroundColor" red="0.91574745560000004" green="0.97152368450000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="125" id="28v-HZ-0LJ"/>
-                                            <constraint firstAttribute="width" constant="125" id="RHv-YI-oEc"/>
-                                        </constraints>
-                                    </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ue4-WE-tnb">
-                                        <rect key="frame" x="34.5" y="125" width="56" height="35"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="35" id="I8e-ID-7Pg"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <state key="normal" title="Culture">
-                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="pressedCulture:" destination="YdW-l6-6yd" eventType="touchUpInside" id="hQ7-Zk-9ZP"/>
-                                            <segue destination="vyz-3W-p5z" kind="show" identifier="toCulture" id="HJ7-KV-zxh"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="160" id="79h-RT-Cq7"/>
-                                    <constraint firstAttribute="width" constant="125" id="lpL-Ww-4yd"/>
-                                </constraints>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9aP-eq-P3Z">
-                                <rect key="frame" x="230" y="84" width="125" height="160"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Paf-Ff-c7a">
-                                        <rect key="frame" x="0.0" y="0.0" width="125" height="125"/>
-                                        <color key="backgroundColor" red="0.91574745560000004" green="0.97152368450000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="125" id="0da-gh-tOk"/>
-                                            <constraint firstAttribute="height" constant="125" id="Z73-0M-QKy"/>
-                                        </constraints>
-                                    </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d6B-03-b87">
-                                        <rect key="frame" x="41.5" y="125" width="42" height="35"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="35" id="GlU-dT-i9c"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <state key="normal" title="Maps">
-                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="pressedMaps:" destination="YdW-l6-6yd" eventType="touchUpInside" id="EBW-H1-eDI"/>
-                                            <segue destination="zpF-V0-6QB" kind="show" identifier="toMaps" id="y7k-mH-Sav"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="bwq-z3-kxb">
-                                <rect key="frame" x="230" y="259" width="125" height="160"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3u5-c6-GJ0">
-                                        <rect key="frame" x="0.0" y="0.0" width="125" height="125"/>
-                                        <color key="backgroundColor" red="0.91574745560000004" green="0.97152368450000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="125" id="Ehd-SD-nJF"/>
-                                            <constraint firstAttribute="width" constant="125" id="wse-uY-uk2"/>
-                                        </constraints>
-                                    </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ngy-uJ-alL">
-                                        <rect key="frame" x="24.5" y="125" width="76" height="35"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="35" id="Krk-dU-YxU"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <state key="normal" title="Language">
-                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="pressedLanguage:" destination="YdW-l6-6yd" eventType="touchUpInside" id="v1K-Rh-3vM"/>
-                                            <segue destination="iPx-sy-1Ku" kind="show" identifier="toLanguage" id="9T9-fF-Ed5"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="160" id="dcY-qm-h29"/>
-                                    <constraint firstAttribute="width" constant="125" id="i1F-1l-hu7"/>
-                                </constraints>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ZDj-7W-PAG">
-                                <rect key="frame" x="230" y="434" width="125" height="160"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="toD-iw-wiZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="125" height="125"/>
-                                        <color key="backgroundColor" red="0.91574745560000004" green="0.97152368450000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="125" id="XqA-go-Tgu"/>
-                                            <constraint firstAttribute="height" constant="125" id="oE6-35-XPn"/>
-                                        </constraints>
-                                    </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zo8-Sg-2Tw">
-                                        <rect key="frame" x="40" y="125" width="45" height="35"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="35" id="wGb-7k-S48"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <state key="normal" title="FAQ's">
-                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="pressedFAQs:" destination="YdW-l6-6yd" eventType="touchUpInside" id="RhP-Rp-xTD"/>
-                                            <segue destination="ggr-Le-bGp" kind="show" identifier="toFAQ's" id="grH-Od-4nx"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="125" id="2KW-qQ-Igt"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="160" id="aNc-Cj-Z9A"/>
-                                    <constraint firstAttribute="height" constant="160" id="x1p-bZ-Ey4"/>
-                                </constraints>
-                            </stackView>
                             <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fbp-ca-etn">
                                 <rect key="frame" x="0.0" y="618" width="375" height="49"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -353,22 +169,86 @@
                                     <tabBarItem title="Mailbox" id="2XH-jt-G3z"/>
                                 </items>
                             </tabBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ue4-WE-tnb">
+                                <rect key="frame" x="20" y="116" width="149" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83168238401412964" green="0.11361119896173477" blue="0.061998449265956879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Culture">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="pressedCulture:" destination="YdW-l6-6yd" eventType="touchUpInside" id="hQ7-Zk-9ZP"/>
+                                    <segue destination="vyz-3W-p5z" kind="show" identifier="toCulture" id="HJ7-KV-zxh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="275-Li-R2K">
+                                <rect key="frame" x="20" y="239" width="149" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83168238401412964" green="0.11361119896173477" blue="0.061998449265956879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Contact Info">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="pressedContactInfo:" destination="YdW-l6-6yd" eventType="touchUpInside" id="Aog-TF-pFu"/>
+                                    <segue destination="bmz-i2-QIg" kind="show" identifier="toContactInformation" id="Xe6-qI-kY7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d6B-03-b87">
+                                <rect key="frame" x="206" y="114" width="149" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83168238401412964" green="0.11361119896173477" blue="0.061998449265956879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Maps">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="pressedMaps:" destination="YdW-l6-6yd" eventType="touchUpInside" id="EBW-H1-eDI"/>
+                                    <segue destination="zpF-V0-6QB" kind="show" identifier="toMaps" id="y7k-mH-Sav"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zo8-Sg-2Tw">
+                                <rect key="frame" x="206" y="360" width="149" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83168238401412964" green="0.11361119896173477" blue="0.061998449265956879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="FAQ's">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="pressedFAQs:" destination="YdW-l6-6yd" eventType="touchUpInside" id="RhP-Rp-xTD"/>
+                                    <segue destination="ggr-Le-bGp" kind="show" identifier="toFAQ's" id="grH-Od-4nx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ngy-uJ-alL">
+                                <rect key="frame" x="206" y="239" width="149" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83168238401412964" green="0.11361119896173477" blue="0.061998449265956879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Language">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="pressedLanguage:" destination="YdW-l6-6yd" eventType="touchUpInside" id="v1K-Rh-3vM"/>
+                                    <segue destination="iPx-sy-1Ku" kind="show" identifier="toLanguage" id="9T9-fF-Ed5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vJE-6k-E4z">
+                                <rect key="frame" x="20" y="360" width="149" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.83168238401412964" green="0.11361119896173477" blue="0.061998449265956879" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Financing">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="pressedFinancing:" destination="YdW-l6-6yd" eventType="touchUpInside" id="qXl-yO-ZSl"/>
+                                    <segue destination="5mq-hn-YEF" kind="show" identifier="toFinancing" id="5vJ-d3-yJ2"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="9aP-eq-P3Z" firstAttribute="top" secondItem="BXC-uT-F3e" secondAttribute="top" id="DVo-PQ-3t0"/>
-                            <constraint firstItem="bwq-z3-kxb" firstAttribute="top" secondItem="9aP-eq-P3Z" secondAttribute="bottom" constant="15" id="EHI-Wo-v7S"/>
-                            <constraint firstItem="Jns-R2-enA" firstAttribute="leading" secondItem="I4b-7c-Dgj" secondAttribute="leading" constant="20" id="NHW-iA-SfN"/>
-                            <constraint firstItem="9aP-eq-P3Z" firstAttribute="top" secondItem="I4b-7c-Dgj" secondAttribute="top" constant="20" id="OcO-Te-kvX"/>
-                            <constraint firstItem="ZDj-7W-PAG" firstAttribute="top" secondItem="bwq-z3-kxb" secondAttribute="bottom" constant="15" id="QK9-9C-B9T"/>
-                            <constraint firstItem="I4b-7c-Dgj" firstAttribute="trailing" secondItem="9aP-eq-P3Z" secondAttribute="trailing" constant="20" id="RsA-T5-MHD"/>
-                            <constraint firstItem="BXC-uT-F3e" firstAttribute="leading" secondItem="I4b-7c-Dgj" secondAttribute="leading" constant="20" id="cf0-D1-s6J"/>
-                            <constraint firstItem="I4b-7c-Dgj" firstAttribute="trailing" secondItem="ZDj-7W-PAG" secondAttribute="trailing" constant="20" id="e3a-tO-06K"/>
-                            <constraint firstItem="Z17-L2-1Uq" firstAttribute="leading" secondItem="I4b-7c-Dgj" secondAttribute="leading" constant="20" id="fRc-tQ-RaO"/>
-                            <constraint firstItem="Z17-L2-1Uq" firstAttribute="top" secondItem="BXC-uT-F3e" secondAttribute="bottom" constant="15" id="i8D-Q1-VhE"/>
-                            <constraint firstItem="Jns-R2-enA" firstAttribute="top" secondItem="Z17-L2-1Uq" secondAttribute="bottom" constant="15" id="j5r-0j-93W"/>
-                            <constraint firstItem="I4b-7c-Dgj" firstAttribute="trailing" secondItem="bwq-z3-kxb" secondAttribute="trailing" constant="20" id="qFp-ma-KJJ"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="I4b-7c-Dgj"/>
                     </view>
                 </viewController>
@@ -741,121 +621,56 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="2Ca-hj-M3U">
-                                <rect key="frame" x="20" y="84" width="125" height="160"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Xa8-UH-mqZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="125" height="127"/>
-                                        <color key="backgroundColor" red="0.91574745560000004" green="0.97152368450000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0e8-rC-nXn">
-                                        <rect key="frame" x="34.5" y="127" width="56" height="33"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <state key="normal" title="Culture">
-                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="pressedAbroadCulture:" destination="cJJ-LZ-hC7" eventType="touchUpInside" id="Iz0-BU-8Lv"/>
-                                            <segue destination="j03-JQ-mI0" kind="show" identifier="toAbroadCulture" id="kgP-AB-cWd"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="0e8-rC-nXn" firstAttribute="centerX" secondItem="2Ca-hj-M3U" secondAttribute="centerX" id="767-Xm-YBA"/>
-                                    <constraint firstAttribute="width" constant="125" id="BWo-kt-aRQ"/>
-                                    <constraint firstAttribute="height" constant="160" id="HXz-ED-Itz"/>
-                                </constraints>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="7HI-2n-FGB">
-                                <rect key="frame" x="230" y="84" width="125" height="160"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Gv9-ln-ZLL">
-                                        <rect key="frame" x="0.0" y="0.0" width="125" height="127"/>
-                                        <color key="backgroundColor" red="0.91574745560000004" green="0.97152368450000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yRK-1L-qnv">
-                                        <rect key="frame" x="41.5" y="127" width="42" height="33"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <state key="normal" title="Maps">
-                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="pressedAbroadMaps:" destination="cJJ-LZ-hC7" eventType="touchUpInside" id="IqK-Pn-yzH"/>
-                                            <segue destination="tIZ-V6-gIa" kind="show" identifier="toAbroadMaps" id="XIk-96-JaR"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="160" id="FsL-li-nvI"/>
-                                    <constraint firstItem="yRK-1L-qnv" firstAttribute="centerX" secondItem="7HI-2n-FGB" secondAttribute="centerX" id="Mst-yS-DkP"/>
-                                    <constraint firstAttribute="width" constant="125" id="j6w-oI-1Ni"/>
-                                </constraints>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="QeT-Sh-kaP">
-                                <rect key="frame" x="20" y="259" width="125" height="160"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="E4e-Qc-a20">
-                                        <rect key="frame" x="0.0" y="0.0" width="125" height="127"/>
-                                        <color key="backgroundColor" red="0.91574745560000004" green="0.97152368450000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BW3-8D-k5i">
-                                        <rect key="frame" x="19" y="127" width="87" height="33"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <state key="normal" title="Emergency">
-                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="pressedAbroadEmergency:" destination="cJJ-LZ-hC7" eventType="touchUpInside" id="NBP-9e-8MN"/>
-                                            <segue destination="mby-Gm-bAP" kind="show" identifier="toAbroadEmergency" id="Ruy-BG-Zhv"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="BW3-8D-k5i" firstAttribute="centerX" secondItem="QeT-Sh-kaP" secondAttribute="centerX" id="M9O-8L-4Iq"/>
-                                    <constraint firstAttribute="width" constant="125" id="NTn-Bv-xAe"/>
-                                    <constraint firstAttribute="height" constant="160" id="WSz-vP-dSM"/>
-                                </constraints>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="PVM-Xa-W0B">
-                                <rect key="frame" x="230" y="259" width="125" height="160"/>
-                                <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="e89-g2-OnM">
-                                        <rect key="frame" x="0.0" y="0.0" width="125" height="127"/>
-                                        <color key="backgroundColor" red="0.91574745560000004" green="0.97152368450000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="laD-hh-nRW">
-                                        <rect key="frame" x="24.5" y="127" width="76" height="33"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <state key="normal" title="Language">
-                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="pressedAbroadLanguage:" destination="cJJ-LZ-hC7" eventType="touchUpInside" id="Ky1-O1-csU"/>
-                                            <segue destination="zjj-vM-sLa" kind="show" identifier="toAbroadLanguage" id="RRg-do-aN5"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="125" id="S8r-Sq-Iu9"/>
-                                    <constraint firstItem="laD-hh-nRW" firstAttribute="centerX" secondItem="PVM-Xa-W0B" secondAttribute="centerX" id="pU2-Hy-edT"/>
-                                    <constraint firstAttribute="height" constant="160" id="u4j-wo-IcD"/>
-                                </constraints>
-                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0e8-rC-nXn">
+                                <rect key="frame" x="16" y="104" width="149" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Culture">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="pressedAbroadCulture:" destination="cJJ-LZ-hC7" eventType="touchUpInside" id="Iz0-BU-8Lv"/>
+                                    <segue destination="j03-JQ-mI0" kind="show" identifier="toAbroadCulture" id="kgP-AB-cWd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yRK-1L-qnv">
+                                <rect key="frame" x="210" y="104" width="149" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Maps">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="pressedAbroadMaps:" destination="cJJ-LZ-hC7" eventType="touchUpInside" id="IqK-Pn-yzH"/>
+                                    <segue destination="tIZ-V6-gIa" kind="show" identifier="toAbroadMaps" id="XIk-96-JaR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="laD-hh-nRW">
+                                <rect key="frame" x="210" y="200" width="149" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Language">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="pressedAbroadLanguage:" destination="cJJ-LZ-hC7" eventType="touchUpInside" id="Ky1-O1-csU"/>
+                                    <segue destination="zjj-vM-sLa" kind="show" identifier="toAbroadLanguage" id="RRg-do-aN5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BW3-8D-k5i">
+                                <rect key="frame" x="16" y="200" width="149" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="Emergency">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="pressedAbroadEmergency:" destination="cJJ-LZ-hC7" eventType="touchUpInside" id="NBP-9e-8MN"/>
+                                    <segue destination="mby-Gm-bAP" kind="show" identifier="toAbroadEmergency" id="Ruy-BG-Zhv"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="QeT-Sh-kaP" firstAttribute="leading" secondItem="Yhp-pK-8t3" secondAttribute="leading" constant="20" id="31n-UF-F5g"/>
-                            <constraint firstItem="QeT-Sh-kaP" firstAttribute="top" secondItem="2Ca-hj-M3U" secondAttribute="bottom" constant="15" id="Cd4-e6-7Ar"/>
-                            <constraint firstItem="PVM-Xa-W0B" firstAttribute="top" secondItem="7HI-2n-FGB" secondAttribute="bottom" constant="15" id="Dfl-Dx-gzP"/>
-                            <constraint firstItem="R3B-0o-oC9" firstAttribute="trailing" secondItem="PVM-Xa-W0B" secondAttribute="trailing" constant="20" id="I5x-96-B8B"/>
-                            <constraint firstItem="R3B-0o-oC9" firstAttribute="trailing" secondItem="7HI-2n-FGB" secondAttribute="trailing" constant="20" id="Lg2-aA-oGW"/>
-                            <constraint firstItem="7HI-2n-FGB" firstAttribute="top" secondItem="R3B-0o-oC9" secondAttribute="top" constant="20" id="Nsa-NX-1Sx"/>
-                            <constraint firstItem="2Ca-hj-M3U" firstAttribute="top" secondItem="R3B-0o-oC9" secondAttribute="top" constant="20" id="Rck-9s-DY7"/>
-                            <constraint firstItem="QeT-Sh-kaP" firstAttribute="top" secondItem="2Ca-hj-M3U" secondAttribute="bottom" constant="15" id="aeZ-Go-VJx"/>
-                            <constraint firstItem="PVM-Xa-W0B" firstAttribute="top" secondItem="7HI-2n-FGB" secondAttribute="bottom" constant="15" id="hZQ-Uz-fJS"/>
-                            <constraint firstItem="QeT-Sh-kaP" firstAttribute="top" secondItem="2Ca-hj-M3U" secondAttribute="bottom" constant="15" id="jr9-PK-GUF"/>
-                            <constraint firstItem="2Ca-hj-M3U" firstAttribute="leading" secondItem="Yhp-pK-8t3" secondAttribute="leading" constant="20" id="ygA-eN-BwE"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="R3B-0o-oC9"/>
                     </view>
                 </viewController>
@@ -1016,7 +831,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Pfi-Zf-HRM"/>
                     </view>
-                    <navigationItem key="navigationItem" title="MENU " id="9NS-x6-WHq"/>
+                    <navigationItem key="navigationItem" title="Menu" id="9NS-x6-WHq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O0S-KR-B3T" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="m0W-gL-6Cn" userLabel="Exit" sceneMemberID="exit"/>
