@@ -14,6 +14,7 @@
 		58D33D2E207BF8CA00783350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58D33D2D207BF8CA00783350 /* Assets.xcassets */; };
 		58D33D31207BF8CA00783350 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58D33D2F207BF8CA00783350 /* LaunchScreen.storyboard */; };
 		FEB03DD72149E57F00110978 /* Jessica.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEB03DD52149E57F00110978 /* Jessica.storyboard */; };
+		FEB03DD9214C240F00110978 /* Brad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEB03DD8214C240F00110978 /* Brad.storyboard */; };
 		FEB03DDC214C24E200110978 /* Alexei.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEB03DDA214C24E200110978 /* Alexei.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		58D33D30207BF8CA00783350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58D33D32207BF8CA00783350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEB03DD62149E57F00110978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Florence Study Abroad/Base.lproj/Jessica.storyboard"; sourceTree = "<group>"; };
+		FEB03DD8214C240F00110978 /* Brad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Brad.storyboard; sourceTree = "<group>"; };
 		FEB03DDB214C24E200110978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Florence Study Abroad/Base.lproj/Alexei.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -45,6 +47,7 @@
 			isa = PBXGroup;
 			children = (
 				FEB03DDA214C24E200110978 /* Alexei.storyboard */,
+				FEB03DD8214C240F00110978 /* Brad.storyboard */,
 				FEB03DD52149E57F00110978 /* Jessica.storyboard */,
 				58D33D25207BF8CA00783350 /* Florence Study Abroad */,
 				58D33D24207BF8CA00783350 /* Products */,
@@ -135,6 +138,7 @@
 				FEB03DD72149E57F00110978 /* Jessica.storyboard in Resources */,
 				58D33D2E207BF8CA00783350 /* Assets.xcassets in Resources */,
 				FEB03DDC214C24E200110978 /* Alexei.storyboard in Resources */,
+				FEB03DD9214C240F00110978 /* Brad.storyboard in Resources */,
 				58BC32582098C7DF008C3FB2 /* Launch Screen.storyboard in Resources */,
 				58D33D2C207BF8CA00783350 /* Main.storyboard in Resources */,
 			);
