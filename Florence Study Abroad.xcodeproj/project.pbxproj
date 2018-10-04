@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2991F8D02165AC5400D982B1 /* PointsOfInterest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2991F8CE2165AC5400D982B1 /* PointsOfInterest.storyboard */; };
+		2991F8D22165ACCD00D982B1 /* PreDeparture.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2991F8D12165ACCD00D982B1 /* PreDeparture.storyboard */; };
+		2991F8D52165ACE100D982B1 /* Maps.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2991F8D32165ACE100D982B1 /* Maps.storyboard */; };
+		2991F8D72165AD0C00D982B1 /* Abroad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2991F8D62165AD0C00D982B1 /* Abroad.storyboard */; };
 		58BC32582098C7DF008C3FB2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58BC32572098C7DF008C3FB2 /* Launch Screen.storyboard */; };
 		58D33D27207BF8CA00783350 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D33D26207BF8CA00783350 /* AppDelegate.swift */; };
 		58D33D29207BF8CA00783350 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D33D28207BF8CA00783350 /* ViewController.swift */; };
@@ -19,6 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2991F8CF2165AC5400D982B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Florence Study Abroad/Base.lproj/PointsOfInterest.storyboard"; sourceTree = "<group>"; };
+		2991F8D12165ACCD00D982B1 /* PreDeparture.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PreDeparture.storyboard; sourceTree = "<group>"; };
+		2991F8D42165ACE100D982B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Florence Study Abroad/Base.lproj/Maps.storyboard"; sourceTree = "<group>"; };
+		2991F8D62165AD0C00D982B1 /* Abroad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Abroad.storyboard; sourceTree = "<group>"; };
 		58BC32572098C7DF008C3FB2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		58D33D23207BF8CA00783350 /* Florence Study Abroad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Florence Study Abroad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58D33D26207BF8CA00783350 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +54,10 @@
 		58D33D1A207BF8CA00783350 = {
 			isa = PBXGroup;
 			children = (
+				2991F8D62165AD0C00D982B1 /* Abroad.storyboard */,
+				2991F8D32165ACE100D982B1 /* Maps.storyboard */,
+				2991F8D12165ACCD00D982B1 /* PreDeparture.storyboard */,
+				2991F8CE2165AC5400D982B1 /* PointsOfInterest.storyboard */,
 				FEB03DDA214C24E200110978 /* Alexei.storyboard */,
 				FEB03DD8214C240F00110978 /* Brad.storyboard */,
 				FEB03DD52149E57F00110978 /* Jessica.storyboard */,
@@ -136,9 +148,13 @@
 			files = (
 				58D33D31207BF8CA00783350 /* LaunchScreen.storyboard in Resources */,
 				FEB03DD72149E57F00110978 /* Jessica.storyboard in Resources */,
+				2991F8D72165AD0C00D982B1 /* Abroad.storyboard in Resources */,
+				2991F8D22165ACCD00D982B1 /* PreDeparture.storyboard in Resources */,
+				2991F8D02165AC5400D982B1 /* PointsOfInterest.storyboard in Resources */,
 				58D33D2E207BF8CA00783350 /* Assets.xcassets in Resources */,
 				FEB03DDC214C24E200110978 /* Alexei.storyboard in Resources */,
 				FEB03DD9214C240F00110978 /* Brad.storyboard in Resources */,
+				2991F8D52165ACE100D982B1 /* Maps.storyboard in Resources */,
 				58BC32582098C7DF008C3FB2 /* Launch Screen.storyboard in Resources */,
 				58D33D2C207BF8CA00783350 /* Main.storyboard in Resources */,
 			);
@@ -159,6 +175,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		2991F8CE2165AC5400D982B1 /* PointsOfInterest.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2991F8CF2165AC5400D982B1 /* Base */,
+			);
+			name = PointsOfInterest.storyboard;
+			sourceTree = "<group>";
+		};
+		2991F8D32165ACE100D982B1 /* Maps.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2991F8D42165ACE100D982B1 /* Base */,
+			);
+			name = Maps.storyboard;
+			sourceTree = "<group>";
+		};
 		58D33D2A207BF8CA00783350 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
