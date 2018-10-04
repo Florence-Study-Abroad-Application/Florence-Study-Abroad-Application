@@ -906,7 +906,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Yes it is okay. Students will also be provided with phones for communication with group leaders and emergencies." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3sa-vW-NC6">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Yes it is okay. Students will also be provided with phones for communication with group leaders and for emergencies." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3sa-vW-NC6">
                                 <rect key="frame" x="16" y="122" width="240" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -920,7 +920,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Yes. Your living spaces will have wi-fi and some stores and etc. will have qi-fi but it is not always gauranteed." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1sf-eZ-52A">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Yes. Your living spaces will have wi-fi and some stores and etc. will have wi-fi but it is not always gauranteed." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1sf-eZ-52A">
                                 <rect key="frame" x="14" y="258" width="240" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -950,7 +950,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="No. Students will need to have their own money for food." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ADX-kw-isq">
-                                <rect key="frame" x="10" y="521" width="240" height="99"/>
+                                <rect key="frame" x="10" y="521" width="240" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
