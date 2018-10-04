@@ -25,20 +25,20 @@
                                     <constraint firstAttribute="height" constant="210" id="Nko-1e-v3h"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hKn-Ii-hhc">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Student Pics 1" translatesAutoresizingMaskIntoConstraints="NO" id="hKn-Ii-hhc">
                                 <rect key="frame" x="20" y="331" width="150" height="150"/>
                                 <color key="backgroundColor" red="0.91574745560000004" green="0.97152368450000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="3be-Mm-T6q"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jnL-RO-sHy">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jnL-RO-sHy">
                                 <rect key="frame" x="20" y="515" width="335" height="176"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="176" id="7zL-pF-khn"/>
                                 </constraints>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <string key="text">Whether you go to a far corner of the globe or take just a short jog, getting to know people from different cultures will enrich your life in incalculable ways. Maryville University is committed to making it as easy as possible for students to participate in an academic, high-rich study-abroad experience.</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -56,7 +56,7 @@
                                     <action selector="pressedMainMenu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L53-60-Vhi"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Nke-en-hQl">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Student pics 2" highlightedImage="bar menu" translatesAutoresizingMaskIntoConstraints="NO" id="Nke-en-hQl">
                                 <rect key="frame" x="190" y="331" width="150" height="150"/>
                                 <color key="backgroundColor" red="0.91574745560000004" green="0.97152368450000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -65,7 +65,7 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="hKn-Ii-hhc" firstAttribute="top" secondItem="cpa-BD-LaV" secondAttribute="bottom" constant="57" id="1W9-vd-Gow"/>
                             <constraint firstItem="cpa-BD-LaV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="4D3-ha-2z9"/>
@@ -85,7 +85,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Home" id="ba0-oY-s6R"/>
+                    <navigationItem key="navigationItem" title="Florence, Italy Study Abroad Program" id="ba0-oY-s6R"/>
                     <connections>
                         <outlet property="mainMenuButton" destination="tDi-wc-SIw" id="8rO-wS-sVe"/>
                         <segue destination="364-ga-BNK" kind="push" identifier="toMainMenu" id="RR9-Lp-TdP"/>
@@ -3315,6 +3315,8 @@
         <image name="Dashboard" width="72" height="56"/>
         <image name="Notifications" width="78" height="55"/>
         <image name="Piazza del Duomo" width="293" height="172"/>
+        <image name="Student Pics 1" width="720" height="588"/>
+        <image name="Student pics 2" width="1200" height="800"/>
         <image name="To-Do List" width="62" height="56"/>
         <image name="bar menu" width="600" height="400"/>
         <image name="canvas" width="1118" height="920"/>
